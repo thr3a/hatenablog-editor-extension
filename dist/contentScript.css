@@ -1,0 +1,18 @@
+header.edit-header {
+  display:none;
+}
+div.editor-toolbar {
+  display: none;
+}
+
+#tag-editor-root {
+  display: none;
+}
+
+.upgrade-pro {
+  display: none !important;
+}
+
+div#promotion {
+  display: none;
+}

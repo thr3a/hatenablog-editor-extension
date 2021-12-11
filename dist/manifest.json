@@ -1,0 +1,22 @@
+{
+  "name": "Beautiful Hatena Blog Editor",
+  "description": "はてなブログの編集画面をキレイサッパリにします",
+  "version": "0.0.4",
+  "manifest_version": 3,
+  "icons": {
+    "16": "icon16.png",
+    "128": "icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://blog.hatena.ne.jp/*"
+      ],
+      "run_at": "document_start",
+      "css": [
+        "contentScript.css"
+      ],
+      "all_frames": true
+    }
+  ]
+}
